@@ -1,5 +1,5 @@
 name = "katelyatv"
-compatibility_date = "2024-09-01"
+compatibility_date = "2024-09-25"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static"
 
@@ -16,9 +16,9 @@ database_id = "26658147-c373-445b-837f-12c38bc570eb"
 # 生产环境变量
 [env.production.vars]
 NEXT_PUBLIC_STORAGE_TYPE = "d1"
-NEXT_PUBLIC_SITE_NAME = "KatelyaTV"
+NEXT_PUBLIC_SITE_NAME = "51tv"
 NEXT_PUBLIC_SITE_DESCRIPTION = "高性能影视播放平台"
-NEXTAUTH_URL = "https://your-domain.pages.dev"
+NEXTAUTH_URL = "https://katelyatv-314.pages.dev/"
 IMAGE_PROXY_ENABLED = "true"
 CACHE_TTL = "3600"
 CORS_ORIGIN = "*"
@@ -43,7 +43,7 @@ database_id = "26658147-c373-445b-837f-12c38bc570eb"
 # 预览环境变量
 [env.preview.vars]
 NEXT_PUBLIC_STORAGE_TYPE = "d1"
-NEXT_PUBLIC_SITE_NAME = "KatelyaTV"
+NEXT_PUBLIC_SITE_NAME = "51tv"
 NEXT_PUBLIC_SITE_DESCRIPTION = "高性能影视播放平台"
 IMAGE_PROXY_ENABLED = "true"
 NODE_ENV = "production"
